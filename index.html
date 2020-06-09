@@ -4,9 +4,8 @@
         <title>Google</title>
         <style>
             img{
-                display: block;
+                display: block !important;
                 margin: 0 auto;
-
            }
            .input-text{
                display: block;
@@ -19,23 +18,52 @@
                display: block;
                text-align: center;
            }
-           .a{
-               display: block;
-               text-align: right;
-               
-
+           li{
+               display: inline;
+               float: right;
+               padding: 7px;
+           }
+           .footer{
+               position: fixed;
+               left: 0;
+               bottom: 0;
+           }
+           .endd{
+               position: fixed;
+               right: 0;
+               bottom: 0;
            }
         </style>
     </head>
     <body>
-        <div class="a">  
-        <a href="Gmail">Gmail</a>
-        <a href="Images">Images</a></div>
+        <nav>
+         <ul>
+          <li><a href="Gmail">Gmail</a></li>
+          <li><a href="Images">Images</a></li>
+          <li><a href="Account">Account</a></li>
+         </ul>
+        </nav>
        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
        <input class="input-text" type="text" name="search"><br />
        <div class="text-align">
        <input type="submit" value="Google search">
        <input type="submit" value="I'm Feeling Lucky">
+       <p text-align="center">Google offered in <a href="language" target="">Francaise</a></p>
+    </div>
+    <div class="footer">
+        <ul >
+         <li><a href="advert">Advertising</a></li>
+         <li><a href="Business">Business</a></li>
+         <li><a href="About">About</a></li>
+         <li><a href="How search works">How search works</a></li>
+        </ul>
+    </div>
+    <div class="endd">
+        <ul >
+         <li><a href="setting">setting</a></li>
+         <li><a href="Privacy">Privacy</a></li>
+         <li><a href="terms">Terms</a></li>
+        </ul>
     </div>
     </body>
 </html>
